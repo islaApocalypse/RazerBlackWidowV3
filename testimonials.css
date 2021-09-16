@@ -14,37 +14,53 @@ header {
 }
 main {
     width: 100%;
-    height: 400px;
+    height: 700px;
 }
     #leftMain {
         width: 50%;
         height: 400px;
         background: #ccc;
         float: left;
+        border-right: 2px solid #555;
     }
-    .pic {
-        width: 100%;
-        height: 100%;
-    }
+        .pic {
+            width: 100%;
+            height: 100%;
+        }
     #rightMain {
         width: 50%;
         height: 400px;
         background: #ccc;
         float: left;
     }
-    #leftHalf {
-        width: 50%;
-        height: 400px;
-        float: left;
+    #rightMain > h4 {
+        margin: 0 auto;
     }
-    #leftHalf > h5 {
-        margin: 5px 10px;
-    }
-    #rightHalf {
-        width: 50%;
-        height: 400px;
+        #leftHalf {
+            width: 50%;
+            height: 400px;
+            float: left;
+        }
+        #leftHalf > h5 {
+            margin: 5px 10px;
+        }
+        #rightHalf {
+            width: 50%;
+            height: 400px;
+            float: left;
+        }
+    #bottomMain {
+        width: 100%;
+        height: 300px;
+        background: #ccc;
+        border-top: 2px solid #555;
         float: left;
     }
 footer {
-
+    width: 100%;
+    height: 50px;
+    background: #bb8;
+    text-align: center;
+    font-size: .9rem;
+    font-style: italic;
 }
